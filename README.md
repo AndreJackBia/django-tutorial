@@ -14,4 +14,4 @@ To run the application:
 ```
 python manage.py runserver
 ```
-And you are up and running at the following [address](localhost:8000)
+And you are up and running at the following localhost:8000
