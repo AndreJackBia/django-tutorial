@@ -1,9 +1,8 @@
 {% extends "base_generic.html" %}
-
+{% load i18n %}
 {% block content %}
   <h1>Login i18n</h1>
-  <p>Welcome to Login i18n, a website tutorial to learn Django REST framework login and i18n functionalities</p>
-  <h2>Let's start with <a href="{% url 'login' %}">login</a></h2>
+  <p>{% trans "Welcome to Login i18n, a website tutorial to learn Django REST framework login and i18n functionalities" %}</p>
+  <h2>{% blocktrans %} Let's start with {% endblocktrans %}<a href="{% url 'login' %}">{% blocktrans %} login {% endblocktrans %}</a></h2>
   
-    
 {% endblock %}
