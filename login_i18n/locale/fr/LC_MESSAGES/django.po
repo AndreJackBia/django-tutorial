@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-11-12 15:00+0100\n"
+"POT-Creation-Date: 2019-11-12 15:03+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,8 +16,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
-
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
 #: .\login_i18n\settings.py:112
 msgid "English"
 msgstr ""
@@ -26,17 +25,19 @@ msgstr ""
 msgid "Italian"
 msgstr ""
 
+#: .\login_i18n\settings.py:114
+msgid "French"
+msgstr ""
+
 #: .\login_i18n\templates\index.html:5
 msgid ""
 "Welcome to Login i18n, a website tutorial to learn Django REST framework "
 "login and i18n functionalities"
 msgstr ""
-" Benvenuto in Login i18n, un sito web tutorial per imparare lefunzionalità "
-"di  autenticazione e internazionalizzazione di Django REST framework "
 
 #: .\login_i18n\templates\index.html:6
 msgid " Let's start with "
-msgstr " Cominciamo con "
+msgstr "On commence avec"
 
 #: .\login_i18n\templates\index.html:6
 msgid " login "
@@ -44,4 +45,4 @@ msgstr " login "
 
 #: .\login_i18n\templates\registration\login.html:38
 msgid "Lost password?"
-msgstr "Password dimenticata?"
+msgstr "Mot de passe oubliè?"
